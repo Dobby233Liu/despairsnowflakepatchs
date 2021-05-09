@@ -28,7 +28,8 @@ jobs:
           git pull --rebase
       - name: Generate
         run: |
-          node index.js
+          curl -O https://raw.githubusercontent.com/thpatch/thcrap/master/scripts/repo_update.py
+          python repo_update.py
       - name: Push
         run: |
           git commit -am "repo_update"
