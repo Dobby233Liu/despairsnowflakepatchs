@@ -1,0 +1,35 @@
+name: repo_update
+
+on: [push]
+
+jobs:
+
+  update:
+  
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Python 3.5
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.5'
+
+      - name: Set author
+        uses: fregante/setup-git-token@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          name: github-actions[bot]
+          email: 41898282+github-actions[bot]@users.noreply.github.com
+      - name: Pull
+        run: |
+          git pull --rebase
+      - name: Generate
+        run: |
+          node index.js
+      - name: Push
+        run: |
+          git commit -am "repo_update"
+          git push
