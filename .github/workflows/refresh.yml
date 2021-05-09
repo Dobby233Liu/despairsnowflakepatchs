@@ -16,6 +16,8 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.5'
+      - name: pip install
+        run: pip install pathspec
 
       - name: Set author
         uses: fregante/setup-git-token@v1
@@ -26,8 +28,9 @@ jobs:
       - name: Pull
         run: |
           git pull --rebase
-      - name: Generate
+      - name: Update
         run: |
+          curl -O https://raw.githubusercontent.com/thpatch/thcrap/master/scripts/utils.py
           curl -O https://raw.githubusercontent.com/thpatch/thcrap/master/scripts/repo_update.py
           python repo_update.py
       - name: Push
