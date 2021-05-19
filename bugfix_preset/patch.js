@@ -1,5 +1,7 @@
 {
 	"dependencies": [
+		"thpatch/base_tsa",
+		"thpatch/base_tasofro",
 		"thpatch/aero",
 		"wobuffet3/visuals",
 		"32th/esc_r",
