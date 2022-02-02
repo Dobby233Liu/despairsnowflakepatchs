@@ -10,14 +10,19 @@
 		"rosenrose/ufo_vivid",
 		"ExpHP/anm_leak",
 		"ExpHP/continue",
-		"ExpHP/nopauseblur",
 		"ExpHP/sprite_death_fix",
-		"zero318/SpellcardLimit"
+		"zero318/SpellcardLimit",
+		"Bravi/BossDisplayFixes",
+		"VasteelXolotl/BossDisplayFixes",
+		"WilliamDavi/Th18LilyWhiteSpriteFix",
+		"Revenant/ShowRank",
+		"bttf0504/EnemyDeadEffect",
+		"wobuffet3/visuals"
 	],
 	"id": "bugfix_preset",
 	"servers": [
 		"https://raw.githubusercontent.com/Dobby233Liu/despairsnowflakepatchs/master/bugfix_preset/"
 	],
-	"title": "Bugfix patches collection",
+	"title": "Personal bugfix or feature patches collection",
 	"update": true
 }
