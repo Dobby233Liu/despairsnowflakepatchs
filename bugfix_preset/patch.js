@@ -16,7 +16,7 @@
 		"VasteelXolotl/BossDisplayFixes",
 		"WilliamDavi/Th18LilyWhiteSpriteFix",
 		"Revenant/ShowRank",
-		"bttf0504/EnemyDeadEffect",
+		"BTTF/EnemyDeadEffect",
 		"wobuffet3/visuals"
 	],
 	"id": "bugfix_preset",
