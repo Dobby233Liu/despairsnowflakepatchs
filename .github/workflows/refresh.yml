@@ -35,5 +35,7 @@ jobs:
           python repo_update.py
       - name: Push
         run: |
+          rm -r __pycache__/ repo_update.py utils.py
+          git add .
           git commit -am "repo_update"
           git push
