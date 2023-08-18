@@ -6,7 +6,10 @@
 		"gcym_alts": "alt music for guichuyinmad.",
 		"guichuyinmad": "Touhou Guichu Otomad (for simp.chn)",
 		"meiryo": "Force Meiryo",
-		"segoe_ui": "Force Segoe UI"
+		"music_room_ext": "Adds tracks that are not officially included in Music Room (except Player's Score) (base)",
+		"music_room_ext_lang_en": "Adds tracks that are not officially included in Music Room (except Player's Score) (English)",
+		"segoe_ui": "Force Segoe UI",
+		"spamton_battle": "Adds NOW'S YOUR CHANCE TO BE A to Double Spoiler's Music Room because yes"
 	},
 	"servers": [
 		"https://raw.githubusercontent.com/Dobby233Liu/despairsnowflakepatchs/master/"
