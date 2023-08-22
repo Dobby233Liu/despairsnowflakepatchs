@@ -31,6 +31,7 @@ jobs:
           curl -L -o _build/repo_update.py https://raw.githubusercontent.com/thpatch/thcrap/master/scripts/repo_update.py
           python _build/repo_update.py
       - name: Push
+        continue-on-error: true
         run: |
           git add .
           git commit -am "repo_update"
