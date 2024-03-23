@@ -10,7 +10,7 @@
 		"music_room_ext_lang_en": "Adds tracks that are not officially included in Music Room (except Player's Score) (English)",
 		"segoe_ui": "Force Segoe UI",
 		"spamton_battle": "Adds NOW'S YOUR CHANCE TO BE A to Double Spoiler's Music Room because yes",
-		"the_deviants_meh_song": "Removes the vocal in The Unobstructed Light of Deviant People ~ Kingdom of Nothingness (th19_12) (and possibly more)"
+		"the_deviants_meh_song": "Removes the vocals in The Deviants' Unobstructed Light ~ Kingdom of Nothingness (th19_12) (possibly more in the future)"
 	},
 	"servers": [
 		"https://raw.githubusercontent.com/Dobby233Liu/despairsnowflakepatchs/master/"
